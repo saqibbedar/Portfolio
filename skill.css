@@ -1,0 +1,172 @@
+/* Skill.css */
+.skills{
+    position: relative;
+    top: 13px;
+    height: 85vh;
+    width: 89%;
+    /* background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHZlby-SqBYeKMtg-yHMXrZsXqPwtkn-sJRqvr8uZrztBhdlttgQ7CcNpMiz5G9y1y69tmTFf9DIVp6iVq3MDS-DDAHZE3vVkL4DbXbk3YDQPbHK4f7DRJ9qWDJ9wQVxHDoF9CCum2RmACxA5Xdqa_2hGlA8VWyboCRJ2x6ns9SdhO_BUPuwgvLPcK5EI2/s1600/image2.png) 0% 0% / cover no-repeat, linear-gradient(90deg, rgb(37, 30, 153), rgb(172, 69, 250)); */
+    /* background: linear-gradient(180deg, rgba(255,255,255,0) -8.81%, #fff 60.08%),linear-gradient(270deg, rgba(42,240,228,0.4) 0%, rgba(140,51,255,0.4) 37.5%, rgba(255,39,118,0.4) 68.75%, rgba(255,188,15,0.4) 100%),#fff; */
+    /* background-blend-mode: multiply; */
+    background: black;
+    border-radius: 12px;
+    margin: 0 auto;
+
+    /* clip-path: polygon(0% 30px, 100% 0, 100% calc(100% - 58px), 0% 100%); */
+    overflow: hidden;
+}
+.skills h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--main-text-color);
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.glow-bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 91px 86px black;
+}
+.skills-icons-wrapper{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.skills-icons{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-icons li{
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 250px;
+    transform: rotate(calc(360deg / 8 * var(--i)));
+}
+.skills-icons li .svg-icon{
+    transform: rotate(calc(360deg / -8 * var(--i)));
+}
+#special-svg{
+    background: white; 
+    padding: 11px;
+    border-radius: 9px;
+    fill: black;
+}
+.js-anim{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.animated-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+    animation-name: Pulse;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+    border-radius: 50%;
+}
+.animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
+.bounce { 
+    -webkit-animation-name: bounce; 
+    animation-name: bounce; 
+}
+@keyframes Pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgb(255, 255, 255);
+        height: 50px;
+        width: 50px;
+    }
+    
+    80% {
+        box-shadow: 0 0 0 3px rgb(125 125 125 / 6%);
+        height: 550px;
+        width: 550px;
+    }
+}
+@-webkit-keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+    40% {-webkit-transform: translateY(-4px);} 
+    60% {-webkit-transform: translateY(-6px);} 
+} 
+
+@keyframes bounce { 
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-6px);} 
+    60% {transform: translateY(-4px);} 
+} 
+@media (width <= 600px) {
+    .skills-icons-wrapper{
+        top: 50%;
+    }
+    .svg-icon svg {
+        width: 244px;
+        height: 52px;
+    }
+    #special-svg{
+        background: none;
+        fill: white;
+    }
+    .skills{
+        height: 65vh;
+    }
+    @keyframes Pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(255, 255, 255);
+            height: 30px;
+            width: 30px;
+        }
+        80% {
+            box-shadow: 0 0 0 3px rgb(125 125 125 / 6%);
+            height: 400px;
+            width: 400px;
+        }
+    }
+}
+
+@media (width <= 450px) {
+    .svg-icon svg {
+        width: 244px;
+        height: 52px;
+    }
+    @keyframes Pulse {
+        0% {
+            box-shadow: 0 0 0 0 rgb(255, 255, 255);
+            height: 30px;
+            width: 30px;
+        }
+        80% {
+            box-shadow: 0 0 0 3px rgb(125 125 125 / 6%);
+            height: 300px;
+            width: 300px;
+        }
+    }
+}
+
+
+
