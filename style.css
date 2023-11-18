@@ -266,6 +266,7 @@ html, body{
     width: 300px;
     border-radius: 12px;
     z-index: 0;
+    background-attachment: fixed;
 }
 .imgPosition img {
     filter: brightness(0.6);
