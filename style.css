@@ -1175,6 +1175,8 @@ a.backTotop-icon{
     .textcenter h1, h2{
         font-size: 19.5px;
         line-height: 38px;
+        max-width: 110%;
+        width: 110%;
       }
       .textcenter p{
         font-size: 16px ;
@@ -1185,6 +1187,7 @@ a.backTotop-icon{
         padding-top: 9px ;
       }
       #author-name-area{
+          width: 110%;
         font-size: 32.5px;
       }
       .contact{
