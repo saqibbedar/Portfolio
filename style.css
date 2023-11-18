@@ -276,6 +276,7 @@ html, body{
     cursor: pointer;
     scale: 1.9;
     transform: translate(-14px, 40px);
+    background-attachment: fixed;
 }
 .textbox {
     position: relative;
@@ -1171,19 +1172,19 @@ a.backTotop-icon{
         width: 100%;
     }
     .textcenter h1, h2{
-        font-size: 23px;
+        font-size: 21px;
         line-height: 38px;
       }
       .textcenter p{
-        font-size: 18px ;
-        line-height: 25px;
+        font-size: 16px ;
+        line-height: 23px;
       }
       .textcenter button {
         font-size: 21px ;
         padding-top: 9px ;
       }
       #author-name-area{
-        font-size: 35px;
+        font-size: 34px;
       }
       .contact{
         height: 80vh;
