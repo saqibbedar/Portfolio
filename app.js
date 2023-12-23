@@ -1,8 +1,8 @@
 // Smooth scroll added locomotive
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('#smooth-scroll'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#smooth-scroll'),
+//     smooth: true
+// });
 
 const navMenu = document.querySelector('.navmenu');
 const navLinks = navMenu.querySelectorAll('a');
