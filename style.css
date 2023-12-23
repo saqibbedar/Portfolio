@@ -5,8 +5,8 @@
     box-sizing: border-box;
     font-family: 'Gabarito', sans-serif;
     text-decoration: none;
-/*     scroll-behavior: smooth;
-    scroll-padding: 4.4rem; */
+    scroll-behavior: smooth;
+    scroll-padding: 4.4rem;
     color: var(--text-color);
     }
 html, body{
@@ -15,7 +15,7 @@ html, body{
     background: var(--body-color);
     user-select: none;
     }
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 5px;
     background: var(--main-text-color);
 }
@@ -28,7 +28,7 @@ html, body{
 }
 ::-webkit-scrollbar-track{
     border-radius: 10px;
-} */
+}
 :root{
     --clip-size: 93%;
     --text-color: #1d1d1f;
