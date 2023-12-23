@@ -1,3 +1,9 @@
+// Smooth scroll added locomotive
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
+
 const navMenu = document.querySelector('.navmenu');
 const navLinks = navMenu.querySelectorAll('a');
 const closebtn = document.querySelector('.clsoebtn');
