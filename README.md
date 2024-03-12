@@ -1,7 +1,8 @@
 # Portfolio
 Responsive modern Portfolio website using HTML, CSS, and JavaScript
 
-Demo 👉 https://saqibbedar.github.io/Portfolio/
+## Demo 
+View live demo [here →](https://saqibbedar.github.io/Portfolio/)
 
 ![portfolio](https://github.com/saqibbedar/Portfolio/assets/124094939/9ba31d17-cbc4-4902-aa54-738a76ab3da1)
 
